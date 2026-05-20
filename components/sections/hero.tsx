@@ -27,11 +27,23 @@ export default function Hero() {
         <MobileNav />
       </header>
 
-      {/* Bild */}
+      {/* Mobilbild */}
+      <img
+        src="/Namnlös design (16).png"
+        alt="Arowwai"
+        className="md:hidden absolute inset-0 w-full h-[108%] object-cover object-[55%_top] top-[-10%]"
+      />
+      {/* iPad-bild */}
+      <img
+        src="/Organizer Desktop Wallpaper.png"
+        alt="Arowwai"
+        className="hidden md:block lg:hidden absolute inset-0 w-full h-[115%] object-cover object-top top-[-15%]"
+      />
+      {/* Desktop-bild */}
       <img
         src="/arowwai (1).png"
         alt="Arowwai"
-        className="absolute inset-0 w-full h-[115%] object-cover object-top top-[-15%]"
+        className="hidden lg:block absolute inset-0 w-full h-[115%] object-cover object-top top-[-15%]"
       />
     </section>
   )

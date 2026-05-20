@@ -13,7 +13,9 @@ export default function MarqueeStrip() {
   const repeated = [...items, ...items]
 
   return (
-    <div className="bg-gold py-3.5 overflow-hidden border-y border-[#d4962f]">
+    <div className="bg-gold py-3.5 overflow-hidden border-y border-[#d4962f] relative">
+      <div className="absolute left-0 top-0 bottom-0 w-16 bg-linear-to-r from-gold to-transparent z-10 pointer-events-none" />
+      <div className="absolute right-0 top-0 bottom-0 w-16 bg-linear-to-l from-gold to-transparent z-10 pointer-events-none" />
       <div className="marquee-track">
         {repeated.map((item, i) => (
           <span key={i} className="flex items-center gap-6 px-6">
