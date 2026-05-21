@@ -4,21 +4,21 @@ import { FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/animate"
 const features = [
   {
     icon: Coffee,
-    title: "Single Origin Bönor",
+    title: "Single Origin",
     description:
-      "Varje böna vi rostar kan spåras till en enda gård. Vi reser till ursprunget två gånger om året för att smaka, välja och säkra världens finaste lots innan någon annan.",
+      "Varje böna spåras till en enda gård. Vi åker dit. Vi väljer själva. Ingen annan får de bästa loten — det gör vi.",
   },
   {
     icon: Leaf,
-    title: "Säsongsmeny",
+    title: "Alltid i Säsong",
     description:
-      "Vår meny andas med årstiderna. När Etiopiens Yirgacheffe-skörd är exceptionell smakar du det. När den colombianska micro-loten tar slut hittar vi nästa stora sak.",
+      "Menyn följer skörden. Inget konstant, inget kompromissat. Det bästa just nu — det är vad vi serverar.",
   },
   {
     icon: Star,
-    title: "Experthantverk",
+    title: "Noll Kompromisser",
     description:
-      "Våra baristor tränar i månader innan de serverar sin första kopp. Extraktionstid, vattentemperatur, malgrad — varje variabel förstås, kontrolleras och respekteras.",
+      "Våra baristor tränar månader. Temperaturen är exakt. Malgraden är exakt. Resultatet är exakt.",
   },
 ]
 
@@ -31,7 +31,7 @@ export default function Features() {
             Varför Arowwai
           </span>
           <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-dark tracking-tight">
-            Skillnaden ligger i detaljerna
+            Detaljer är allt
           </h2>
         </FadeUp>
 

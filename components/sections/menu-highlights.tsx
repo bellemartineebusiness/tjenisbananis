@@ -3,7 +3,7 @@ import { FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/animate"
 const menuItems = [
   {
     name: "Signaturespresso",
-    description: "Mörk, komplex och förföriskt len. Vårt husbland — rostat på plats varje måndag.",
+    description: "Vårt husbland. Rostat måndag. Serverat perfekt. Inget mer att säga.",
     price: "$5",
     tag: "Husfavorit",
     image:
@@ -11,15 +11,15 @@ const menuItems = [
   },
   {
     name: "Cold Brew Reserve",
-    description: "18 timmars långsam brantning med vår single-origin Guatemala. Silkeslen och kraftfull.",
+    description: "18 timmar. Guatemala single-origin. Begränsat varje dag. Kom tidigt.",
     price: "$6",
-    tag: "Begränsat dagligen",
+    tag: "Begränsat",
     image:
       "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=600&h=400&fit=crop&q=80",
   },
   {
     name: "Cortado",
-    description: "Lika delar espresso och lätt ångad mjölk. Det klassiska valet, perfekt balanserat.",
+    description: "Espresso. Mjölk. Balans. Det är allt — och det räcker.",
     price: "$5.50",
     tag: "Klassisk",
     image:
@@ -27,9 +27,9 @@ const menuItems = [
   },
   {
     name: "Säsonglatte",
-    description: "Fråga din barista. Förändras med skörden. Alltid överraskande, aldrig besvikelse.",
+    description: "Följer skörden. Alltid annorlunda. Aldrig en besvikelse. Fråga oss.",
     price: "$7",
-    tag: "Fråga oss idag",
+    tag: "Just nu",
     image:
       "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600&h=400&fit=crop&q=80",
   },
@@ -46,8 +46,8 @@ export default function MenuHighlights() {
               Signaturdrycker
             </span>
             <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-cream tracking-tight leading-tight">
-              Tillagat med omsorg,<br />
-              <em className="font-light text-cream/70">serverat med kärlek</em>
+              Inga genvägar.<br />
+              <em className="font-light text-cream/70">Aldrig.</em>
             </h2>
           </div>
           <a
@@ -98,7 +98,7 @@ export default function MenuHighlights() {
         {/* Fotnot */}
         <FadeUp delay={0.2}>
           <p className="text-center text-cream/30 text-xs mt-8 md:mt-10 font-light tracking-wide">
-            Alla bönor inköpta direkt från odlare · Rostas varje vecka på plats · Havre, mandel & soja tillgängligt
+Direkt från odlare · Rostat på plats · Havre, mandel & soja
           </p>
         </FadeUp>
       </div>

@@ -6,21 +6,21 @@ const TESTIMONIALS = [
     name: "Sofia Chen",
     avatar: "https://randomuser.me/api/portraits/women/44.jpg",
     description:
-      "Arowwai har varit mitt favoritställe i flera år. Espresson är mörk, komplex och helt perfekt. Det finns ingen annanstans i New York jag hellre vill starta min dag.",
+      "Espresson är perfekt. Punkt. Inget ställe i New York slår Arowwai på morgonen.",
   },
   {
     id: 2,
     name: "Marcus Webb",
     avatar: "https://randomuser.me/api/portraits/men/32.jpg",
     description:
-      "Jag har rest världen runt på jakt efter bra kaffe och Arowwai håller sig bland de allra bästa. Säsonglattén förändrar allt du trodde du visste om vad kaffe kan vara.",
+      "Världen runt. Inget slår detta. Säsonglattén är en helt annan nivå.",
   },
   {
     id: 3,
     name: "Emma Laurent",
     avatar: "https://randomuser.me/api/portraits/women/22.jpg",
     description:
-      "Uppmärksamheten på detaljer här är olik något annat. Från inköpen till den sista hällningen kan du smaka omsorgen i varje kopp. En sann New York-institution.",
+      "Du smakar omsorgen i varje kopp. Det är ingen slump — det är ett val de gör varje dag.",
   },
 ]
 
@@ -33,7 +33,7 @@ export default function TestimonialsSection() {
             Omdömen
           </span>
           <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-dark tracking-tight">
-            Vad våra gäster säger
+            De pratar. Vi lyssnar.
           </h2>
         </FadeUp>
 
