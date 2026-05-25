@@ -36,7 +36,7 @@ export default function Footer() {
               className="h-10 md:h-14 w-auto mb-5 md:mb-6"
             />
             <p className="text-cream/45 text-sm font-light leading-relaxed max-w-xs">
-              New York. Est. 1999. Ett mål — den perfekta koppen.
+              New York. Est. 1999. Ett mål: den perfekta koppen.
             </p>
             <div className="flex items-center gap-3 md:gap-4 mt-6 md:mt-8">
               <a

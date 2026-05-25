@@ -4,21 +4,21 @@ import { FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/animate"
 const features = [
   {
     icon: Coffee,
-    title: "Single Origin",
+    title: "Single Origin Bönor",
     description:
-      "Varje böna spåras till en enda gård. Vi åker dit. Vi väljer själva. Ingen annan får de bästa loten — det gör vi.",
+      "Varje böna vi rostar spåras till en enda gård. Vi besöker odlarna, väljer själva och bygger relationer som håller i decennier.",
   },
   {
     icon: Leaf,
-    title: "Alltid i Säsong",
+    title: "Följer Säsongen",
     description:
-      "Menyn följer skörden. Inget konstant, inget kompromissat. Det bästa just nu — det är vad vi serverar.",
+      "Vår meny lever med skörden. Det som är bäst just nu är vad du får i koppen. Alltid något nytt att upptäcka.",
   },
   {
     icon: Star,
-    title: "Noll Kompromisser",
+    title: "Äkta Hantverk",
     description:
-      "Våra baristor tränar månader. Temperaturen är exakt. Malgraden är exakt. Resultatet är exakt.",
+      "Våra baristor älskar det de gör och det märks. Varje kopp görs med omsorg, kunskap och ett äkta leende.",
   },
 ]
 
@@ -31,7 +31,7 @@ export default function Features() {
             Varför Arowwai
           </span>
           <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-dark tracking-tight">
-            Detaljer är allt
+            Gjort med omtanke
           </h2>
         </FadeUp>
 

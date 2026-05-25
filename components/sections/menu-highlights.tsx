@@ -3,7 +3,7 @@ import { FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/animate"
 const menuItems = [
   {
     name: "Signaturespresso",
-    description: "Vårt husbland. Rostat måndag. Serverat perfekt. Inget mer att säga.",
+    description: "Mörk, len och komplex. Vårt husbland rostat varje måndag. En kopp du kommer tillbaka till.",
     price: "$5",
     tag: "Husfavorit",
     image:
@@ -11,15 +11,15 @@ const menuItems = [
   },
   {
     name: "Cold Brew Reserve",
-    description: "18 timmar. Guatemala single-origin. Begränsat varje dag. Kom tidigt.",
+    description: "18 timmar, Guatemala single-origin. Silkeslen och fyllig. Perfekt när du behöver något extra.",
     price: "$6",
-    tag: "Begränsat",
+    tag: "Begränsat dagligen",
     image:
       "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=600&h=400&fit=crop&q=80",
   },
   {
     name: "Cortado",
-    description: "Espresso. Mjölk. Balans. Det är allt — och det räcker.",
+    description: "Det perfekta mötet mellan espresso och mjölk. Enkel, balanserad och alltid rätt.",
     price: "$5.50",
     tag: "Klassisk",
     image:
@@ -27,9 +27,9 @@ const menuItems = [
   },
   {
     name: "Säsonglatte",
-    description: "Följer skörden. Alltid annorlunda. Aldrig en besvikelse. Fråga oss.",
+    description: "Vår barista berättar mer. Förändras med skörden och överraskar alltid på bästa sätt.",
     price: "$7",
-    tag: "Just nu",
+    tag: "Fråga oss idag",
     image:
       "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600&h=400&fit=crop&q=80",
   },
@@ -46,8 +46,8 @@ export default function MenuHighlights() {
               Signaturdrycker
             </span>
             <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-cream tracking-tight leading-tight">
-              Inga genvägar.<br />
-              <em className="font-light text-cream/70">Aldrig.</em>
+              Välkommen till<br />
+              <em className="font-light text-cream/70">vår meny.</em>
             </h2>
           </div>
           <a

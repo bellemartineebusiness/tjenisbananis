@@ -18,16 +18,16 @@ export default function Introduction() {
               Vår Historia
             </span>
             <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-dark leading-[1.1] tracking-tight mb-5 md:mb-6">
-              Inte bara kaffe.<br />
-              <em className="font-light">En övertygelse.</em>
+              Mer än kaffe.<br />
+              <em className="font-light">Ett hem i New York.</em>
             </h2>
           </FadeUp>
           <FadeUp delay={0.1}>
             <p className="text-dark/65 text-sm md:text-base leading-relaxed mb-5 md:mb-6 max-w-lg">
-              New York, 1999. Vi startade med en enkel idé — kaffe ska vara exceptionellt eller inte alls. Direkt från gårdar i Etiopien, Colombia och Guatemala. Inga mellanhänder.
+              Sedan 1999 har Arowwai varit platsen där New York saktar ner. Vi hämtar våra bönor direkt från gårdar i Etiopien, Colombia och Guatemala. Vi sätter dem i händerna på människor som verkligen bryr sig.
             </p>
             <p className="text-dark/65 text-sm md:text-base leading-relaxed mb-10 md:mb-12 max-w-lg">
-              25 år senare är inget förändrat. Samma krav. Samma passion. Varje kopp.
+              Varje kopp är gjord för dig. Välkommen in.
             </p>
           </FadeUp>
 

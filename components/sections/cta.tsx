@@ -9,11 +9,11 @@ export default function CTA() {
             Hitta oss
           </span>
           <h2 className="font-serif text-4xl sm:text-5xl md:text-6xl text-dark tracking-tight leading-[1.05] mb-5 md:mb-6">
-            Kom in.<br />
-            <em className="font-light">Vi är redo.</em>
+            Redo för din<br />
+            <em className="font-light">nästa kopp?</em>
           </h2>
           <p className="text-dark/65 text-sm md:text-base font-light mb-8 md:mb-10 max-w-lg mx-auto leading-relaxed">
-            Tre platser. Sju dagar. Alltid öppet. Alltid exceptionellt.
+            Tre platser runt om i New York, öppna sju dagar i veckan. Kom in, slå dig ner och låt oss ta hand om resten.
           </p>
 
           <div className="flex items-center justify-center gap-3 md:gap-4 flex-wrap mb-10 md:mb-16">
