@@ -3,7 +3,7 @@ import { FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/animate"
 const menuItems = [
   {
     name: "Signaturespresso",
-    description: "Mörk, len och komplex. Vårt husbland rostat varje måndag. En kopp du kommer tillbaka till.",
+    description: "Djup smak med en len eftersmak och härlig komplexitet. Rostas på plats varje måndag. Vår stoltaste kopp.",
     price: "$5",
     tag: "Husfavorit",
     image:
@@ -11,7 +11,7 @@ const menuItems = [
   },
   {
     name: "Cold Brew Reserve",
-    description: "18 timmar, Guatemala single-origin. Silkeslen och fyllig. Perfekt när du behöver något extra.",
+    description: "Vår cold brew bryggs i 18 timmar och blir naturligt söt, utan bitterhet. Prova den så förstår du.",
     price: "$6",
     tag: "Begränsat dagligen",
     image:

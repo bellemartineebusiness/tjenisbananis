@@ -6,7 +6,7 @@ const TESTIMONIALS = [
     name: "Sofia Chen",
     avatar: "https://randomuser.me/api/portraits/women/44.jpg",
     description:
-      "Arowwai är platsen jag alltid återvänder till. Espresson är komplex och len och personalen får dig alltid att känna dig hemma.",
+      "Arowwai är platsen jag alltid återvänder till. Espresson är komplex och god och personalen får dig alltid att känna dig hemma.",
   },
   {
     id: 2,

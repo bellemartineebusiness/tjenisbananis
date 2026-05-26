@@ -24,7 +24,7 @@ export default function Introduction() {
           </FadeUp>
           <FadeUp delay={0.1}>
             <p className="text-dark/65 text-sm md:text-base leading-relaxed mb-5 md:mb-6 max-w-lg">
-              Sedan 1999 har Arowwai varit platsen där New York saktar ner. Vi hämtar våra bönor direkt från gårdar i Etiopien, Colombia och Guatemala. Vi sätter dem i händerna på människor som verkligen bryr sig.
+              Sedan 1999 har Arowwai varit platsen där New York saktar ner. Vi hämtar våra bönor direkt från gårdar i Etiopien, Colombia och Guatemala. Sedan tar våra baristor över med äkta omsorg och passion.
             </p>
             <p className="text-dark/65 text-sm md:text-base leading-relaxed mb-10 md:mb-12 max-w-lg">
               Varje kopp är gjord för dig. Välkommen in.
